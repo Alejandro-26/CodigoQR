@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "QrCode.Net/0.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Gma.QrCodeNet.Encoding.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Gma.QrCodeNet.Encoding.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QrCode.Net/0.4.0": {
+      "sha512": "/IGAS08L3o0GYsVU1VQnE23w00EVaQ1GP5cS2uEfGsiszZ2X6AnbHImwXL1XPM0opT0GOVgbX4Bhp/7eB22Ugg==",
+      "type": "package",
+      "path": "qrcode.net/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.exe",
+        "lib/net35/Gma.QrCodeNet.Encoding.dll",
+        "lib/net35/Gma.QrCodeNet.Encoding.pdb",
+        "lib/net35/Gma.QrCodeNet.Encoding.xml",
+        "lib/net40/Gma.QrCodeNet.Encoding.XML",
+        "lib/net40/Gma.QrCodeNet.Encoding.dll",
+        "lib/net40/Gma.QrCodeNet.Encoding.pdb",
+        "lib/net45/Gma.QrCodeNet.Encoding.dll",
+        "lib/net45/Gma.QrCodeNet.Encoding.pdb",
+        "lib/net45/Gma.QrCodeNet.Encoding.xml",
+        "lib/netcore45/Gma.QrCodeNet.Encoding.dll",
+        "lib/netcore45/Gma.QrCodeNet.Encoding.pdb",
+        "lib/netcore45/Gma.QrCodeNet.Encoding.pri",
+        "lib/netcore45/Gma.QrCodeNet.Encoding.xml",
+        "lib/netcore45/Themes/Generic.xaml",
+        "lib/sl5/Gma.QrCodeNet.Encoding.dll",
+        "lib/sl5/Gma.QrCodeNet.Encoding.pdb",
+        "lib/sl5/Gma.QrCodeNet.Encoding.xml",
+        "qrcode.net.0.4.0.nupkg.sha512",
+        "qrcode.net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "QrCode.Net >= 0.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\57320\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\57320\\source\\repos\\CodigoQR\\CodigoQR.csproj",
+      "projectName": "CodigoQR",
+      "projectPath": "C:\\Users\\57320\\source\\repos\\CodigoQR\\CodigoQR.csproj",
+      "packagesPath": "C:\\Users\\57320\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\57320\\source\\repos\\CodigoQR\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\57320\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "QrCode.Net": {
+            "target": "Package",
+            "version": "[0.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"QrCode.Net 0.4.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "QrCode.Net",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
